@@ -24,7 +24,7 @@ const Login = () => {
     <div className="min-h-screen flex justify-center items-center bg-gray-100">
       <div className="bg-white p-8 rounded shadow-md w-96">
         <div>
-          admin: admin@gmailcom | viewer: viewer@gmail.com <br />
+          admin: admin@gmail.com | viewer: viewer@gmail.com <br />
           password: 1234
         </div>
         <h2 className="text-2xl font-bold mb-4 text-center">Login</h2>
