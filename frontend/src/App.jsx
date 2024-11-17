@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import {
   BrowserRouter as Router,
   Routes,
@@ -9,14 +9,10 @@ import Login from "./pages/Login";
 import ProtectedRoute from "./components/ProtectedRoute";
 import { AuthProvider, useAuth } from "./context/AuthContext";
 import Signup from "./pages/Signup";
-import AdminDashboard from "./pages/Dashboard";
-import ViewerDashboard from "./pages/ViewerDashboard";
 import { Suspense } from "react";
 import Dashboard from "./pages/Dashboard";
 
 const App = () => {
-  // const { user } = useAuth();
-
 
   return (
     <AuthProvider>
