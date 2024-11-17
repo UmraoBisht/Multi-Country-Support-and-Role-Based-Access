@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import DataList from "../components/dataList";
-import CountrySelector from "../components/countrySelector";
+import DataList from "../components/DataList";
 
 const Dashboard = () => {
   const user = JSON.parse(localStorage.getItem("user"));

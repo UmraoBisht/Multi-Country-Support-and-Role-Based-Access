@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import UpdateModal from "./UpdateModal";
 import api from "../services/api";
-import { useAuth } from "../context/AuthContext";
 import CountrySelector from "./countrySelector";
 
 const DataList = () => {
